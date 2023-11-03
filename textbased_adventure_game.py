@@ -18,28 +18,28 @@ if ans == "yes":
     if opt1== "yes":
         print("That's a great choice")
         print()
-        opt2= input("Hey! There's a wild horse.\nDo you want to use it in exploration?[yes/no]\t")
-        if opt2 == "yes":
-            print("You'll be collided with the trees in the forest. You lose \U0001F62D")
-            print()
-        else:
-            print("You can continue your exploration")
-            print()
-            opt3=input("Oh no! There's a bear coming on your way \U0001F972. Do you get panic or act as dead? [panic/act]\t")
-            if opt3 == "panic":
-                print("Oh! You lose \U0001F62D")
-            else:
-                print("That's great!!! Keep going")
-                print()
-                print("You reached the danger zone")
-                opt4= input("Do you want to explore the cave or the jungle? [cave/jungle]\t")
-                if opt4 == "cave":
-                    print("You win \U0001F929")
-                else:
-                    print("The wild animals attack. You lose \U0001F62D")
     else:
         print("It's okay! You can continue your journey")
         print()
+    opt2= input("Hey! There's a wild horse.\nDo you want to use it in exploration?[yes/no]\t")
+    if opt2 == "yes":
+        print("You'll be collided with the trees in the forest. You lose \U0001F62D")
+        print()
+    else:
+        print("You can continue your exploration")
+        print()
+        opt3=input("Oh no! There's a bear coming on your way \U0001F972. Do you get panic or act as dead? [panic/act]\t")
+        if opt3 == "panic":
+            print("Oh! You lose \U0001F62D")
+        else:
+            print("That's great!!! Keep going")
+            print()
+            print("You reached the danger zone")
+            opt4= input("Do you want to explore the cave or the jungle? [cave/jungle]\t")
+            if opt4 == "cave":
+                print("You win \U0001F929")
+            else:
+                print("The wild animals attack. You lose \U0001F62D")
     if opt == "no" and opt1 == "no":
         print("You lose due to lack of energy \U0001F62D")
         print()
